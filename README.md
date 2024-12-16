@@ -53,6 +53,8 @@ clone the project:
 
 ## Demo
 
+### Live Demo: https://movie-library-beige-delta.vercel.app/
+
 ### ScreenShot
 
 ![Screenshot (202)](https://github.com/user-attachments/assets/f2dfe2d1-52fc-4a60-bd5c-6eca0b07b898)
