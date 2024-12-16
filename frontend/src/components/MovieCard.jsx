@@ -11,7 +11,7 @@ const MovieCard = ({movie}) => {
     }
 
     return ( 
-        <div className="flex flex-col gap-3 w-fit p-5 bg-slate-400 border rounded-md shadow-lg">
+        <div className="flex flex-col gap-3 w-fit p-5 bg-slate-400 rounded-md shadow-xl">
             <div className="relative">
                 <img src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`} alt={ movie.title } 
                 className="w-40 h-40 mx-auto"/>

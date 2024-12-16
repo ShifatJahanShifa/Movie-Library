@@ -23,7 +23,7 @@ export const MovieContextProvider=({children})=>{
     }
 
     const removeFavorite=(movieId)=>{
-        setfavorites(prev.filter((movie)=>(
+        setfavorites(prev=> prev.filter((movie)=>(
             movie.id!==movieId
         )))
     }

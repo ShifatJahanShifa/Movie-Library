@@ -3,8 +3,7 @@ import MovieCard from "../components/MovieCard";
 
 const Favorite = () => {
     const { favorites }=useMovieContext()
-    // console.log(favorites)
-
+    
     return (
         <>
         { favorites.length>0 ? (

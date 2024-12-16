@@ -61,13 +61,13 @@ const Home = () => {
                 <form className="flex flex-row gap-3" onSubmit={handleSubmission}>
                     <input type="text" 
                     placeholder="search for a movie" 
-                    className="bg-slate-100 border border-black rounded-md"
+                    className="bg-slate-100 p-2 border border-black rounded-lg"
                     value={searchQuery}
                     onChange={(e)=>{
                         setSearchQuery(e.target.value)
                     }}
                     />
-                    <button type="submit" className="p-3 bg-black text-white">search</button>
+                    <button type="submit" className="p-2 bg-black text-white rounded-lg">search</button>
                     {/* <p>{searchQuery}</p> */}
                 </form>
             </div>
